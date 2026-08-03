@@ -23,6 +23,9 @@
 *.dll
 *.so.*
 
+# Visual Studio Code
+.vscode/
+*.vsix
 
 # Fortran module files
 *.mod
@@ -43,6 +46,9 @@
 build/
 Build/
 build-*/
+bin/
+Debug/
+Release/
 
 # CMake generated files
 CMakeFiles/
@@ -67,3 +73,6 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# macOS
+.DS_Store
